@@ -11,9 +11,6 @@ public class NullPointerDereference {
   }
 
   private String trim(String animal) {
-    if(animal.isEmpty()) {
-      return null;
-    }
     return animal.trim();
   }
 }
