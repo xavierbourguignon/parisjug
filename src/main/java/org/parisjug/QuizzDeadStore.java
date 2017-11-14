@@ -26,6 +26,7 @@ public class QuizzDeadStore {
         amountOfMoney = 5_000; 
         break;
       }
+      break;
     default:
       throw new RuntimeException("Game Over!");
     }
