@@ -3,11 +3,11 @@ package org.parisjug;
 public class QuizzUnreachableConditionalBranch {
 
   public int ultimateBoringBusinessLogic(
-      int antonioAge, int nicolasAge, int zouheirAge) {
+      int charlesAge, int khanhAge, int sunAge) {
     
-    if (antonioAge > nicolasAge 
-        && nicolasAge == zouheirAge 
-        && zouheirAge > antonioAge) {
+    if (charlesAge > khanhAge
+        && khanhAge == sunAge
+        && sunAge > charlesAge) {
       return Integer.MAX_VALUE;
     }
     
